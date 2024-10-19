@@ -1,0 +1,96 @@
+/* Container styling */
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .loginsignup-container {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Input fields */
+  .login-signup-fields input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+  }
+  
+  .login-signup-fields input:focus {
+    border-color: #5c67f2;
+    outline: none;
+  }
+  
+  /* Continue button */
+  .continue {
+    width: 100%;
+    padding: 12px;
+    background-color:red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4754e1;
+  }
+  
+  /* Text links and checkbox */
+  .loginsignup-login {
+    margin: 15px 0;
+    color: #555;
+  }
+  
+  .loginsignup-login span {
+    color: #5c67f2;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .loginsignup-agree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .loginsignup-agree input {
+    margin-right: 10px;
+  }
+  
+  .loginsignup-agree p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 480px) {
+    .loginsignup-container {
+      width: 90%;
+    }
+  }
+  

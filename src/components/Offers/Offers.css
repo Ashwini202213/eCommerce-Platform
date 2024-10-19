@@ -1,0 +1,66 @@
+
+
+.offers {
+
+    display: flex;
+    justify-content: space-between; /* Distribute space between left and right sections */
+    align-items: center; /* Vertically center align items */
+    /* padding: 70px; Add padding around the section */
+    /* background-color: #f8f9fa; Light background color for contrast */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1200px; /* Limit maximum width for better readability */
+    margin: auto; /* Center the offers container */
+    background:linear-gradient(180deg,#fde1ff,#e1ffea22 60%) ;
+}
+
+.offers-left {
+    flex: 1; /* Allow left section to grow */
+    padding: 30px; /* Padding for the text area */
+    text-align: end; /* Align text to the left */
+}
+
+.offers-left h1 {
+    font-size: 48px; /* Increase font size for prominence */
+    font-weight: 700; /* Bold font weight */
+    color: #333; /* Dark color for contrast */
+    margin: 0; /* Remove default margin */
+}
+.offers-left h1:first-child {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.offers-left p {
+    font-size: 18px; /* Medium font size */
+    color: #555; /* Slightly lighter color for text */
+    margin: 10px 0; /* Spacing around the paragraph */
+}
+
+.offers-left button {
+    text-align: center;
+    padding: 15px 20px; /* Button padding */
+    background-color:#ff4141; /* Button color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.offers-left button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.offers-right {
+    flex: 1; /* Allow right section to grow */
+    text-align: right; /* Align text/image to the right */
+}
+
+.offers-right img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); Shadow for the image */
+}

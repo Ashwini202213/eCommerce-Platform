@@ -1,0 +1,133 @@
+/* DescriptionBox.css */
+.description-box {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    /* margin-top: 20px ; */
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .descriptionbox-navbox {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #555;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .descriptionbox-navbox.active {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+  }
+  
+  .descriptionbox-navbox:hover {
+    color: #007bff;
+  }
+  
+  .descriptionbox-description,
+  .descriptionbox-reviews {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .descriptionbox-description p,
+  .descriptionbox-reviews p {
+    margin-bottom: 15px;
+  }
+  
+  .descriptionbox-description p:last-of-type,
+  .descriptionbox-reviews p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DescriptionBox.css
+.description-box {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+  }
+  
+  .discriptionbox-navigator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .descriptionbox-navbox {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .descriptionbox-navbox:hover {
+    background-color: #0056b3;
+  }
+  
+  .descriptionbox-navbox.fade {
+    background-color: #e0e0e0;
+    color: #555;
+    cursor: not-allowed;
+  }
+  
+  .descriptionbox-description {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .descriptionbox-description p {
+    margin-bottom: 15px;
+  }
+  
+  .descriptionbox-description ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .descriptionbox-description p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .descriptionbox-description p::first-letter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+   */
