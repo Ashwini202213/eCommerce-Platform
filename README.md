@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# eCommerce-Platform
+This eCommerce platform is a modern web application designed to provide users with a seamless shopping experience. Built using React, the application features a responsive and intuitive user interface that makes browsing products, adding items to the cart, and completing purchases effortless.
+
+Technologies Used:
+
+Frontend: React, JavaScript, HTML, CSS
+State Management: Context API / Redux
+>>>>>>> 7ba6761d547fb69523e9d42677cb25640084a742
